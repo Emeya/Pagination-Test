@@ -52,10 +52,12 @@
 		99895970267BC4830046601E /* Pagination Test */ = {
 			isa = PBXGroup;
 			children = (
-				99895971267BC4830046601E /* Pagination_TestApp.swift */,
-				99895973267BC4830046601E /* ContentView.swift */,
-				99895975267BC4840046601E /* Assets.xcassets */,
-				9989597A267BC4840046601E /* Info.plist */,
+				99895981267BC4980046601E /* Application */,
+				99895985267BC4DF0046601E /* Frameworks */,
+				99895984267BC4D40046601E /* Utilities */,
+				99895983267BC4B80046601E /* Resources */,
+				99895982267BC4B50046601E /* Extension */,
+				99895980267BC4930046601E /* Presentation */,
 				99895977267BC4840046601E /* Preview Content */,
 			);
 			path = "Pagination Test";
@@ -67,6 +69,84 @@
 				99895978267BC4840046601E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99895980267BC4930046601E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				99895986267BC4F70046601E /* Home */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		99895981267BC4980046601E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9989597A267BC4840046601E /* Info.plist */,
+				99895971267BC4830046601E /* Pagination_TestApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		99895982267BC4B50046601E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99895983267BC4B80046601E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99895975267BC4840046601E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99895984267BC4D40046601E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		99895985267BC4DF0046601E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		99895986267BC4F70046601E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				99895989267BC50B0046601E /* Model */,
+				99895988267BC5080046601E /* View */,
+				99895987267BC4FB0046601E /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99895987267BC4FB0046601E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99895988267BC5080046601E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99895973267BC4830046601E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99895989267BC50B0046601E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pagination Test/Preview Content\"";
 				DEVELOPMENT_TEAM = 2AUX7ZMLGM;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Pagination Test/Info.plist";
+				INFOPLIST_FILE = "Pagination Test/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +373,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pagination Test/Preview Content\"";
 				DEVELOPMENT_TEAM = 2AUX7ZMLGM;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Pagination Test/Info.plist";
+				INFOPLIST_FILE = "Pagination Test/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
